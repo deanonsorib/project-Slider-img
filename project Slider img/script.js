@@ -23,4 +23,4 @@ function mover(i){
             break;
     
     }
-}
+}.
