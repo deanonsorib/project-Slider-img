@@ -155,3 +155,19 @@ nav.active .icon .line2 {
 
 //////////////////
 /
+/* SERVICES */
+.services {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  text-align: center;
+}
+/* SERVICES */
+.services {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  text-align: center;
+}
