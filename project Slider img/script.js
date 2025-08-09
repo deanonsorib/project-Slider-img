@@ -22,18 +22,19 @@ function mover(i){
             slider.src = imagenes[contador];
             break;
     
-    }
-}..
-/////////////
-////////
-/
-/////////////
-/
+    }function mover(i){
+    switch (i) {
+        case 1:
+            contador++;
+            if (contador > imagenes.length -1)contador = 0;
+            slider.src = imagenes[contador];
+            break;
+        case -1:
+            contador--;
+            if (contador < 0) contador = imagenes.length -1;
+            slider.src = imagenes[contador];
+            break;
+
 /
 /
 
-/
-////////////
-/////////////////
-/
-/
